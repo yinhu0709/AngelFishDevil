@@ -8,24 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		58F7DCB221DDEADA00189630 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCB121DDEADA00189630 /* AppDelegate.m */; };
-		58F7DCB521DDEADA00189630 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCB421DDEADA00189630 /* ViewController.m */; };
-		58F7DCB821DDEADB00189630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F7DCB621DDEADB00189630 /* Main.storyboard */; };
 		58F7DCBA21DDEAF400189630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F7DCB921DDEAF400189630 /* Assets.xcassets */; };
 		58F7DCBD21DDEAF400189630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F7DCBB21DDEAF400189630 /* LaunchScreen.storyboard */; };
 		58F7DCC021DDEAF400189630 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCBF21DDEAF400189630 /* main.m */; };
+		58F7DCCC21DDFF8300189630 /* SZNMainTabBarContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCCB21DDFF8300189630 /* SZNMainTabBarContoller.m */; };
+		58F7DCCF21DE041600189630 /* SZNGuideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCCE21DE041600189630 /* SZNGuideNavigationController.m */; };
+		58F7DCD221DE044800189630 /* SZNGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCD121DE044800189630 /* SZNGuideViewController.m */; };
+		58F7DCDB21DE0ABD00189630 /* SZNBaseTabItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCDA21DE0ABD00189630 /* SZNBaseTabItemViewController.m */; };
+		58F7DCDE21DE0AEA00189630 /* SZNAngelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCDD21DE0AEA00189630 /* SZNAngelViewController.m */; };
+		58F7DCE121DE0B1800189630 /* SZNFishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE021DE0B1800189630 /* SZNFishViewController.m */; };
+		58F7DCE421DE0B3C00189630 /* SZNDevilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE321DE0B3C00189630 /* SZNDevilViewController.m */; };
+		58F7DCE721DE0C4500189630 /* SZNBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE621DE0C4500189630 /* SZNBaseNavViewController.m */; };
+		B99D05D1D8628891D7B8DDF3 /* libPods-AngelFishDevil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D3D6865F23AD1805418C16 /* libPods-AngelFishDevil.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31D3D6865F23AD1805418C16 /* libPods-AngelFishDevil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AngelFishDevil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B99CEDA0F18C66115569871 /* Pods-AngelFishDevil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelFishDevil.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngelFishDevil/Pods-AngelFishDevil.release.xcconfig"; sourceTree = "<group>"; };
 		58F7DCAD21DDEADA00189630 /* AngelFishDevil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelFishDevil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F7DCB021DDEADA00189630 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58F7DCB121DDEADA00189630 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58F7DCB321DDEADA00189630 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		58F7DCB421DDEADA00189630 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		58F7DCB721DDEADB00189630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58F7DCB921DDEAF400189630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58F7DCBC21DDEAF400189630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58F7DCBE21DDEAF400189630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58F7DCBF21DDEAF400189630 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58F7DCCA21DDFF8300189630 /* SZNMainTabBarContoller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNMainTabBarContoller.h; sourceTree = "<group>"; };
+		58F7DCCB21DDFF8300189630 /* SZNMainTabBarContoller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNMainTabBarContoller.m; sourceTree = "<group>"; };
+		58F7DCCD21DE041600189630 /* SZNGuideNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNGuideNavigationController.h; sourceTree = "<group>"; };
+		58F7DCCE21DE041600189630 /* SZNGuideNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNGuideNavigationController.m; sourceTree = "<group>"; };
+		58F7DCD021DE044800189630 /* SZNGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNGuideViewController.h; sourceTree = "<group>"; };
+		58F7DCD121DE044800189630 /* SZNGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNGuideViewController.m; sourceTree = "<group>"; };
+		58F7DCD321DE053700189630 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		58F7DCD921DE0ABD00189630 /* SZNBaseTabItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNBaseTabItemViewController.h; sourceTree = "<group>"; };
+		58F7DCDA21DE0ABD00189630 /* SZNBaseTabItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNBaseTabItemViewController.m; sourceTree = "<group>"; };
+		58F7DCDC21DE0AEA00189630 /* SZNAngelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNAngelViewController.h; sourceTree = "<group>"; };
+		58F7DCDD21DE0AEA00189630 /* SZNAngelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNAngelViewController.m; sourceTree = "<group>"; };
+		58F7DCDF21DE0B1800189630 /* SZNFishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNFishViewController.h; sourceTree = "<group>"; };
+		58F7DCE021DE0B1800189630 /* SZNFishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNFishViewController.m; sourceTree = "<group>"; };
+		58F7DCE221DE0B3C00189630 /* SZNDevilViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNDevilViewController.h; sourceTree = "<group>"; };
+		58F7DCE321DE0B3C00189630 /* SZNDevilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNDevilViewController.m; sourceTree = "<group>"; };
+		58F7DCE521DE0C4500189630 /* SZNBaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNBaseNavViewController.h; sourceTree = "<group>"; };
+		58F7DCE621DE0C4500189630 /* SZNBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNBaseNavViewController.m; sourceTree = "<group>"; };
+		C1F2FCA4E0D6DF357CE60320 /* Pods-AngelFishDevil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelFishDevil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngelFishDevil/Pods-AngelFishDevil.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99D05D1D8628891D7B8DDF3 /* libPods-AngelFishDevil.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B2C17A2B1AB0D0D9C41D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31D3D6865F23AD1805418C16 /* libPods-AngelFishDevil.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58F7DCA421DDEADA00189630 = {
 			isa = PBXGroup;
 			children = (
+				58F7DCD521DE099900189630 /* TabBarVCs */,
+				58F7DCC621DDFE1A00189630 /* MainVCs */,
 				58F7DCAF21DDEADA00189630 /* AngelFishDevil */,
 				58F7DCAE21DDEADA00189630 /* Products */,
+				8E43D60DB644E46D3049E601 /* Pods */,
+				24B2C17A2B1AB0D0D9C41D1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +97,52 @@
 			children = (
 				58F7DCB021DDEADA00189630 /* AppDelegate.h */,
 				58F7DCB121DDEADA00189630 /* AppDelegate.m */,
-				58F7DCB321DDEADA00189630 /* ViewController.h */,
-				58F7DCB421DDEADA00189630 /* ViewController.m */,
-				58F7DCB621DDEADB00189630 /* Main.storyboard */,
+				58F7DCD321DE053700189630 /* PrefixHeader.pch */,
 				58F7DCB921DDEAF400189630 /* Assets.xcassets */,
 				58F7DCBB21DDEAF400189630 /* LaunchScreen.storyboard */,
 				58F7DCBE21DDEAF400189630 /* Info.plist */,
 				58F7DCBF21DDEAF400189630 /* main.m */,
 			);
 			path = AngelFishDevil;
+			sourceTree = "<group>";
+		};
+		58F7DCC621DDFE1A00189630 /* MainVCs */ = {
+			isa = PBXGroup;
+			children = (
+				58F7DCCA21DDFF8300189630 /* SZNMainTabBarContoller.h */,
+				58F7DCCB21DDFF8300189630 /* SZNMainTabBarContoller.m */,
+				58F7DCCD21DE041600189630 /* SZNGuideNavigationController.h */,
+				58F7DCCE21DE041600189630 /* SZNGuideNavigationController.m */,
+				58F7DCD021DE044800189630 /* SZNGuideViewController.h */,
+				58F7DCD121DE044800189630 /* SZNGuideViewController.m */,
+			);
+			path = MainVCs;
+			sourceTree = "<group>";
+		};
+		58F7DCD521DE099900189630 /* TabBarVCs */ = {
+			isa = PBXGroup;
+			children = (
+				58F7DCD921DE0ABD00189630 /* SZNBaseTabItemViewController.h */,
+				58F7DCDA21DE0ABD00189630 /* SZNBaseTabItemViewController.m */,
+				58F7DCE521DE0C4500189630 /* SZNBaseNavViewController.h */,
+				58F7DCE621DE0C4500189630 /* SZNBaseNavViewController.m */,
+				58F7DCDC21DE0AEA00189630 /* SZNAngelViewController.h */,
+				58F7DCDD21DE0AEA00189630 /* SZNAngelViewController.m */,
+				58F7DCDF21DE0B1800189630 /* SZNFishViewController.h */,
+				58F7DCE021DE0B1800189630 /* SZNFishViewController.m */,
+				58F7DCE221DE0B3C00189630 /* SZNDevilViewController.h */,
+				58F7DCE321DE0B3C00189630 /* SZNDevilViewController.m */,
+			);
+			path = TabBarVCs;
+			sourceTree = "<group>";
+		};
+		8E43D60DB644E46D3049E601 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1F2FCA4E0D6DF357CE60320 /* Pods-AngelFishDevil.debug.xcconfig */,
+				3B99CEDA0F18C66115569871 /* Pods-AngelFishDevil.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58F7DCC321DDEAF400189630 /* Build configuration list for PBXNativeTarget "AngelFishDevil" */;
 			buildPhases = (
+				6F31DE96787B4C7BBE736F88 /* [CP] Check Pods Manifest.lock */,
 				58F7DCA921DDEADA00189630 /* Sources */,
 				58F7DCAA21DDEADA00189630 /* Frameworks */,
 				58F7DCAB21DDEADA00189630 /* Resources */,
@@ -130,19 +205,46 @@
 			files = (
 				58F7DCBD21DDEAF400189630 /* LaunchScreen.storyboard in Resources */,
 				58F7DCBA21DDEAF400189630 /* Assets.xcassets in Resources */,
-				58F7DCB821DDEADB00189630 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F31DE96787B4C7BBE736F88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AngelFishDevil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58F7DCA921DDEADA00189630 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58F7DCB521DDEADA00189630 /* ViewController.m in Sources */,
+				58F7DCDE21DE0AEA00189630 /* SZNAngelViewController.m in Sources */,
 				58F7DCC021DDEAF400189630 /* main.m in Sources */,
+				58F7DCE421DE0B3C00189630 /* SZNDevilViewController.m in Sources */,
+				58F7DCCC21DDFF8300189630 /* SZNMainTabBarContoller.m in Sources */,
+				58F7DCCF21DE041600189630 /* SZNGuideNavigationController.m in Sources */,
+				58F7DCE721DE0C4500189630 /* SZNBaseNavViewController.m in Sources */,
+				58F7DCD221DE044800189630 /* SZNGuideViewController.m in Sources */,
+				58F7DCDB21DE0ABD00189630 /* SZNBaseTabItemViewController.m in Sources */,
+				58F7DCE121DE0B1800189630 /* SZNFishViewController.m in Sources */,
 				58F7DCB221DDEADA00189630 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +252,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58F7DCB621DDEADB00189630 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58F7DCB721DDEADB00189630 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58F7DCBB21DDEAF400189630 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,10 +377,13 @@
 		};
 		58F7DCC421DDEAF400189630 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F2FCA4E0D6DF357CE60320 /* Pods-AngelFishDevil.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S6779Q7U9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AngelFishDevil/PrefixHeader.pch";
 				INFOPLIST_FILE = AngelFishDevil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,15 +392,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.szn.AngelFishDevil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}";
 			};
 			name = Debug;
 		};
 		58F7DCC521DDEAF400189630 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B99CEDA0F18C66115569871 /* Pods-AngelFishDevil.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S6779Q7U9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AngelFishDevil/PrefixHeader.pch";
 				INFOPLIST_FILE = AngelFishDevil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.szn.AngelFishDevil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}";
 			};
 			name = Release;
 		};
