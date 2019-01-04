@@ -11,7 +11,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SZNBaseTabItemViewController : UIViewController
-
 @end
 
 NS_ASSUME_NONNULL_END

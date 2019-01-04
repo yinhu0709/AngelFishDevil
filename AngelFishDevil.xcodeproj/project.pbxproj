@@ -19,6 +19,8 @@
 		58F7DCE121DE0B1800189630 /* SZNFishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE021DE0B1800189630 /* SZNFishViewController.m */; };
 		58F7DCE421DE0B3C00189630 /* SZNDevilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE321DE0B3C00189630 /* SZNDevilViewController.m */; };
 		58F7DCE721DE0C4500189630 /* SZNBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE621DE0C4500189630 /* SZNBaseNavViewController.m */; };
+		58F7DCEA21DF52DB00189630 /* SZNAngelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE921DF52DB00189630 /* SZNAngelCell.m */; };
+		58F7DCED21DF5BCB00189630 /* SZNRoleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCEC21DF5BCB00189630 /* SZNRoleModel.m */; };
 		B99D05D1D8628891D7B8DDF3 /* libPods-AngelFishDevil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D3D6865F23AD1805418C16 /* libPods-AngelFishDevil.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,10 @@
 		58F7DCE321DE0B3C00189630 /* SZNDevilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNDevilViewController.m; sourceTree = "<group>"; };
 		58F7DCE521DE0C4500189630 /* SZNBaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNBaseNavViewController.h; sourceTree = "<group>"; };
 		58F7DCE621DE0C4500189630 /* SZNBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNBaseNavViewController.m; sourceTree = "<group>"; };
+		58F7DCE821DF52DB00189630 /* SZNAngelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNAngelCell.h; sourceTree = "<group>"; };
+		58F7DCE921DF52DB00189630 /* SZNAngelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNAngelCell.m; sourceTree = "<group>"; };
+		58F7DCEB21DF5BCB00189630 /* SZNRoleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNRoleModel.h; sourceTree = "<group>"; };
+		58F7DCEC21DF5BCB00189630 /* SZNRoleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNRoleModel.m; sourceTree = "<group>"; };
 		C1F2FCA4E0D6DF357CE60320 /* Pods-AngelFishDevil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelFishDevil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngelFishDevil/Pods-AngelFishDevil.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +101,8 @@
 		58F7DCAF21DDEADA00189630 /* AngelFishDevil */ = {
 			isa = PBXGroup;
 			children = (
+				58F7DCEB21DF5BCB00189630 /* SZNRoleModel.h */,
+				58F7DCEC21DF5BCB00189630 /* SZNRoleModel.m */,
 				58F7DCB021DDEADA00189630 /* AppDelegate.h */,
 				58F7DCB121DDEADA00189630 /* AppDelegate.m */,
 				58F7DCD321DE053700189630 /* PrefixHeader.pch */,
@@ -128,6 +136,8 @@
 				58F7DCE621DE0C4500189630 /* SZNBaseNavViewController.m */,
 				58F7DCDC21DE0AEA00189630 /* SZNAngelViewController.h */,
 				58F7DCDD21DE0AEA00189630 /* SZNAngelViewController.m */,
+				58F7DCE821DF52DB00189630 /* SZNAngelCell.h */,
+				58F7DCE921DF52DB00189630 /* SZNAngelCell.m */,
 				58F7DCDF21DE0B1800189630 /* SZNFishViewController.h */,
 				58F7DCE021DE0B1800189630 /* SZNFishViewController.m */,
 				58F7DCE221DE0B3C00189630 /* SZNDevilViewController.h */,
@@ -243,9 +253,11 @@
 				58F7DCCF21DE041600189630 /* SZNGuideNavigationController.m in Sources */,
 				58F7DCE721DE0C4500189630 /* SZNBaseNavViewController.m in Sources */,
 				58F7DCD221DE044800189630 /* SZNGuideViewController.m in Sources */,
+				58F7DCEA21DF52DB00189630 /* SZNAngelCell.m in Sources */,
 				58F7DCDB21DE0ABD00189630 /* SZNBaseTabItemViewController.m in Sources */,
 				58F7DCE121DE0B1800189630 /* SZNFishViewController.m in Sources */,
 				58F7DCB221DDEADA00189630 /* AppDelegate.m in Sources */,
+				58F7DCED21DF5BCB00189630 /* SZNRoleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

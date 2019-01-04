@@ -20,16 +20,18 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    if ([[NSUserDefaults standardUserDefaults] valueForKey:@"NotFirst"]) {
-        SZNMainTabBarContoller *mainVC = [[SZNMainTabBarContoller alloc]init];
-        self.window.rootViewController = mainVC;
-        NSLog(@"不是第一次打开");
-    }else{
-        NSLog(@"第一次打开");
-        SZNGuideViewController *guideVC = [[SZNGuideViewController alloc]init];
-        self.window.rootViewController = guideVC;
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"NotFirst"];
-    }
+    SZNGuideViewController *guideVC = [[SZNGuideViewController alloc]init];
+    self.window.rootViewController = guideVC;
+//    if ([[NSUserDefaults standardUserDefaults] valueForKey:@"NotFirst"]) {
+//        SZNMainTabBarContoller *mainVC = [[SZNMainTabBarContoller alloc]init];
+//        self.window.rootViewController = mainVC;
+//        NSLog(@"不是第一次打开");
+//    }else{
+//        NSLog(@"第一次打开");
+//        SZNGuideViewController *guideVC = [[SZNGuideViewController alloc]init];
+//        self.window.rootViewController = guideVC;
+//        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"NotFirst"];
+//    }
     
     [self.window makeKeyAndVisible];
     
