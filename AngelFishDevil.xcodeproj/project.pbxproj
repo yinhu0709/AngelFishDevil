@@ -21,6 +21,13 @@
 		58F7DCE721DE0C4500189630 /* SZNBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE621DE0C4500189630 /* SZNBaseNavViewController.m */; };
 		58F7DCEA21DF52DB00189630 /* SZNAngelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCE921DF52DB00189630 /* SZNAngelCell.m */; };
 		58F7DCED21DF5BCB00189630 /* SZNRoleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCEC21DF5BCB00189630 /* SZNRoleModel.m */; };
+		58F7DCF021E47E1400189630 /* SZNDevilCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCEF21E47E1400189630 /* SZNDevilCell.m */; };
+		58F7DCF321E59FB500189630 /* SZNEditContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCF221E59FB500189630 /* SZNEditContentViewController.m */; };
+		58F7DCF621E5E05200189630 /* SZNCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCF521E5E05200189630 /* SZNCommentModel.m */; };
+		58F7DCF921E5E28800189630 /* SZNRoleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCF821E5E28800189630 /* SZNRoleManager.m */; };
+		58F7DCFC21E7351700189630 /* SZNRoleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCFB21E7351700189630 /* SZNRoleDetailViewController.m */; };
+		58F7DCFF21E86B8200189630 /* SZNRoleAllInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DCFE21E86B8200189630 /* SZNRoleAllInfoViewController.m */; };
+		58F7DD0221E88D6E00189630 /* SZNCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7DD0121E88D6E00189630 /* SZNCommentCell.m */; };
 		B99D05D1D8628891D7B8DDF3 /* libPods-AngelFishDevil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D3D6865F23AD1805418C16 /* libPods-AngelFishDevil.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +62,20 @@
 		58F7DCE921DF52DB00189630 /* SZNAngelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNAngelCell.m; sourceTree = "<group>"; };
 		58F7DCEB21DF5BCB00189630 /* SZNRoleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNRoleModel.h; sourceTree = "<group>"; };
 		58F7DCEC21DF5BCB00189630 /* SZNRoleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNRoleModel.m; sourceTree = "<group>"; };
+		58F7DCEE21E47E1400189630 /* SZNDevilCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNDevilCell.h; sourceTree = "<group>"; };
+		58F7DCEF21E47E1400189630 /* SZNDevilCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNDevilCell.m; sourceTree = "<group>"; };
+		58F7DCF121E59FB500189630 /* SZNEditContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNEditContentViewController.h; sourceTree = "<group>"; };
+		58F7DCF221E59FB500189630 /* SZNEditContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNEditContentViewController.m; sourceTree = "<group>"; };
+		58F7DCF421E5E05200189630 /* SZNCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNCommentModel.h; sourceTree = "<group>"; };
+		58F7DCF521E5E05200189630 /* SZNCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNCommentModel.m; sourceTree = "<group>"; };
+		58F7DCF721E5E28800189630 /* SZNRoleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNRoleManager.h; sourceTree = "<group>"; };
+		58F7DCF821E5E28800189630 /* SZNRoleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNRoleManager.m; sourceTree = "<group>"; };
+		58F7DCFA21E7351700189630 /* SZNRoleDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNRoleDetailViewController.h; sourceTree = "<group>"; };
+		58F7DCFB21E7351700189630 /* SZNRoleDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNRoleDetailViewController.m; sourceTree = "<group>"; };
+		58F7DCFD21E86B8200189630 /* SZNRoleAllInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNRoleAllInfoViewController.h; sourceTree = "<group>"; };
+		58F7DCFE21E86B8200189630 /* SZNRoleAllInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNRoleAllInfoViewController.m; sourceTree = "<group>"; };
+		58F7DD0021E88D6E00189630 /* SZNCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNCommentCell.h; sourceTree = "<group>"; };
+		58F7DD0121E88D6E00189630 /* SZNCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNCommentCell.m; sourceTree = "<group>"; };
 		C1F2FCA4E0D6DF357CE60320 /* Pods-AngelFishDevil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelFishDevil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngelFishDevil/Pods-AngelFishDevil.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +124,10 @@
 			children = (
 				58F7DCEB21DF5BCB00189630 /* SZNRoleModel.h */,
 				58F7DCEC21DF5BCB00189630 /* SZNRoleModel.m */,
+				58F7DCF421E5E05200189630 /* SZNCommentModel.h */,
+				58F7DCF521E5E05200189630 /* SZNCommentModel.m */,
+				58F7DCF721E5E28800189630 /* SZNRoleManager.h */,
+				58F7DCF821E5E28800189630 /* SZNRoleManager.m */,
 				58F7DCB021DDEADA00189630 /* AppDelegate.h */,
 				58F7DCB121DDEADA00189630 /* AppDelegate.m */,
 				58F7DCD321DE053700189630 /* PrefixHeader.pch */,
@@ -142,6 +167,16 @@
 				58F7DCE021DE0B1800189630 /* SZNFishViewController.m */,
 				58F7DCE221DE0B3C00189630 /* SZNDevilViewController.h */,
 				58F7DCE321DE0B3C00189630 /* SZNDevilViewController.m */,
+				58F7DCEE21E47E1400189630 /* SZNDevilCell.h */,
+				58F7DCEF21E47E1400189630 /* SZNDevilCell.m */,
+				58F7DCF121E59FB500189630 /* SZNEditContentViewController.h */,
+				58F7DCF221E59FB500189630 /* SZNEditContentViewController.m */,
+				58F7DCFA21E7351700189630 /* SZNRoleDetailViewController.h */,
+				58F7DCFB21E7351700189630 /* SZNRoleDetailViewController.m */,
+				58F7DCFD21E86B8200189630 /* SZNRoleAllInfoViewController.h */,
+				58F7DCFE21E86B8200189630 /* SZNRoleAllInfoViewController.m */,
+				58F7DD0021E88D6E00189630 /* SZNCommentCell.h */,
+				58F7DD0121E88D6E00189630 /* SZNCommentCell.m */,
 			);
 			path = TabBarVCs;
 			sourceTree = "<group>";
@@ -249,15 +284,22 @@
 				58F7DCDE21DE0AEA00189630 /* SZNAngelViewController.m in Sources */,
 				58F7DCC021DDEAF400189630 /* main.m in Sources */,
 				58F7DCE421DE0B3C00189630 /* SZNDevilViewController.m in Sources */,
+				58F7DCF921E5E28800189630 /* SZNRoleManager.m in Sources */,
+				58F7DCFF21E86B8200189630 /* SZNRoleAllInfoViewController.m in Sources */,
 				58F7DCCC21DDFF8300189630 /* SZNMainTabBarContoller.m in Sources */,
+				58F7DCFC21E7351700189630 /* SZNRoleDetailViewController.m in Sources */,
+				58F7DCF321E59FB500189630 /* SZNEditContentViewController.m in Sources */,
 				58F7DCCF21DE041600189630 /* SZNGuideNavigationController.m in Sources */,
 				58F7DCE721DE0C4500189630 /* SZNBaseNavViewController.m in Sources */,
+				58F7DD0221E88D6E00189630 /* SZNCommentCell.m in Sources */,
 				58F7DCD221DE044800189630 /* SZNGuideViewController.m in Sources */,
 				58F7DCEA21DF52DB00189630 /* SZNAngelCell.m in Sources */,
+				58F7DCF021E47E1400189630 /* SZNDevilCell.m in Sources */,
 				58F7DCDB21DE0ABD00189630 /* SZNBaseTabItemViewController.m in Sources */,
 				58F7DCE121DE0B1800189630 /* SZNFishViewController.m in Sources */,
 				58F7DCB221DDEADA00189630 /* AppDelegate.m in Sources */,
 				58F7DCED21DF5BCB00189630 /* SZNRoleModel.m in Sources */,
+				58F7DCF621E5E05200189630 /* SZNCommentModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

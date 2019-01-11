@@ -9,27 +9,22 @@
 #import "SZNAngelViewController.h"
 #import "SZNAngelCell.h"
 #import "SZNRoleModel.h"
+#import "SZNEditContentViewController.h"
+#import "SZNRoleDetailViewController.h"
 @interface SZNAngelViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic, strong)UITableView *tableView;
 @property(nonatomic, strong)NSArray *dataArray;
 @end
 
 @implementation SZNAngelViewController
-
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.dataArray = [[SZNRoleManager sharedInstance] getAllAngelRole];
+    [self.tableView reloadData];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    SZNRoleModel *model = [[SZNRoleModel alloc]init];
-    model.roleType = SZNRoleModelTypeAngel;
-    model.content = @"今天又是周五了";
-    model.dateStr = @"2019.1.4 17:28";
-    SZNRoleModel *model1 = [[SZNRoleModel alloc]init];
-    model1.roleType = SZNRoleModelTypeAngel;
-    model1.content = @"今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了今天又是周五了";
-    model1.dateStr = @"2019.1.4 17:28";
-    self.dataArray = @[model,model1];
-    
     self.title = @"天使";
     UITableView *tableView = [[UITableView alloc]init];
     [self.view addSubview:tableView];
@@ -39,6 +34,7 @@
     tableView.estimatedRowHeight = 30;
     tableView.tableFooterView = [UIView new];
     [tableView registerClass:[SZNAngelCell class] forCellReuseIdentifier:@"cell"];
+     [self.view bringSubviewToFront:self.editButton];
     if (@available(iOS 11.0, *)){
         [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.view.mas_safeAreaLayoutGuideTop);
@@ -64,10 +60,34 @@
     SZNAngelCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     SZNRoleModel *model = self.dataArray[indexPath.row];
     cell.model = model;
-    cell.swipeButtonClick = ^{
-        NSLog(@"点击事件得到传递");
+    cell.swipeButtonClick = ^(BOOL isAngelSay) {
+         SZNEditContentViewController *editVC = [[SZNEditContentViewController alloc]init];
+        if (isAngelSay) {
+            editVC.commnetType = SZNRoleModelTypeAngel;
+        }else{
+            editVC.commnetType = SZNRoleModelTypeDevil;
+        }
+        editVC.isCreateRole = NO;
+        editVC.currentModel = model;
+        UINavigationController *bgNavVC = [[UINavigationController alloc]initWithRootViewController:editVC];
+        [self presentViewController:bgNavVC animated:YES completion:nil];
     };
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    SZNRoleDetailViewController *detailVC = [[SZNRoleDetailViewController alloc]init];
+    detailVC.hidesBottomBarWhenPushed = YES;
+    detailVC.currentModel = self.dataArray[indexPath.row];
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
+
+- (void)addContent:(id)sender {
+    
+    SZNEditContentViewController *editVC = [[SZNEditContentViewController alloc]init];
+    editVC.roleType = SZNRoleModelTypeAngel;
+    editVC.isCreateRole = YES;
+    UINavigationController *bgNavVC = [[UINavigationController alloc]initWithRootViewController:editVC];
+    [self presentViewController:bgNavVC animated:YES completion:nil];
 }
 /*
 #pragma mark - Navigation

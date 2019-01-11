@@ -12,11 +12,12 @@ typedef NS_ENUM(NSInteger, SZNRoleModelType) {
     SZNRoleModelTypeFish,
     SZNRoleModelTypeDevil
 };
-
+@class SZNCommentModel;
 @interface SZNRoleModel : NSObject
 @property (nonatomic, assign) SZNRoleModelType roleType;
 @property (nonatomic, strong) NSString *content;
 @property (nonatomic, strong) NSString *dateStr;
+@property (nonatomic, strong) NSArray<SZNCommentModel *> *commentArray;
 @end
 
 

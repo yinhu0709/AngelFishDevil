@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface SZNBaseTabItemViewController : UIViewController
+@property(nonatomic, strong)UIButton *editButton;
 @end
 
-NS_ASSUME_NONNULL_END

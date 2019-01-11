@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"鱼";
+     [self.view bringSubviewToFront:self.editButton];
 }
 
 /*

@@ -7,7 +7,7 @@
 //
 
 #import "MGSwipeTableCell.h"
-typedef void(^SwipeButtonBlock)(void);
+typedef void(^SwipeButtonBlock)(BOOL isAngelSay);
 
 @class SZNRoleModel;
 
